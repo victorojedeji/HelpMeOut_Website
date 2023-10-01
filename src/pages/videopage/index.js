@@ -18,7 +18,7 @@ export default function VideoPage() {
 
           <div className=" mb-16">
             <h1 className="text-[#727272] text-base font-medium">Name</h1>
-            <div className="flex gap-8"> 
+            <div className="flex gap-2 md:gap-8"> 
               <p className="text-[#413C6D] text-2xl font-semibold">
                 Untitled_Video_20232509
               </p>
@@ -54,7 +54,7 @@ export default function VideoPage() {
             <h1 className="text-[#08051] text-base font-semibold">
               Share your video
             </h1>
-            <div className="flex gap-2">
+            <div className="flex flex-wrap mt-2 gap-2">
               <button className="flex gap-1 px-4 py-3 border rounded-md">
                 <img src={facebook} alt="facebook" />
                 <span>Facebook</span>
