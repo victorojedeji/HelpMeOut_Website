@@ -134,7 +134,7 @@ export default function VideoPage() {
         </div>
       </section>
       <section className="w-full mt-10 bg-[#f7f7f7] py-12">
-        <p className="text-[#141414] text-center font-semibold text-xl md:text-2xl w-[70%] mx-auto">
+        <p className="text-[#141414] text-center font-semibold text-xl md:text-2xl w-[90%] md:w-[70%] mx-auto">
           To ensure the availability and privacy of your video, we recommend
           saving it to your account.
         </p>
