@@ -9,16 +9,17 @@ import dart from "../../assets/section_two/Icon placeholder.png";
 import paperplane from "../../assets/section_two/Icon placeholder (1).png";
 import revision from "../../assets/section_two/Icon placeholder (2).png";
 import vidrepo from "../../assets/section_two/Video Repository (1).png";
+import group from "../../assets/section_three/group.png";
 
 export default function Home() {
   return (
     <div>
-      <section className="h-[700px] md:px-[100px] px-[20px] py-[50px] md:py-[100px] mb-[75px] flex flex-col md:flex-row items-center justify-between overflow-x-hidden ">
+      <section className="mt-[80px] h-[700px] md:px-[100px] px-[20px] py-[50px] md:py-[100px] mb-[75px] flex flex-col md:flex-row items-center justify-between overflow-x-hidden ">
         <div className="w-full md:w-[45%] relative z-10">
-          <h1 className="text-[46px] md:text-[64px] font-bold text-[#141414] leading-[65px] mb-5">
+          <h1 className="text-[36px] md:text-[64px] font-bold text-[#141414] leading-8 md:leading-[65px] mb-5">
             Show Them Don’t Just Tell
           </h1>
-          <p className="text-[20px] font-regular leading-7 text-black opacity-75 mb-12">
+          <p className="text-[16px] sm:text-[20px] font-regular leading-7 text-black opacity-75 mb-12">
             Help your friends and loved ones by creating and sending videos on
             how to get things done on a website.
           </p>
@@ -71,9 +72,9 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="bg-slate-100 h-14 w-full mb-20"></div>
+      <div className="bg-slate-100 h-14 w-full"></div>
 
-      <section className="px-[20px] md:px-[100px] pb-20">
+      <section className="px-[20px] md:px-[100px] py-20">
         <h2 className="text-center text-[#141414] font-bold text-3xl md:text-4xl">
           Features
         </h2>
@@ -84,9 +85,15 @@ export default function Home() {
         <div className="flex flex-col md:flex-row gap-7w md:gap-14">
           <div className="w-full md:w-[50%]">
             <div className="flex gap-4 mb-12">
-              <img src={dart} alt="dart" className="h-[38px] md:h-[48px] w-[38px] md:w-[48px]"/>
+              <img
+                src={dart}
+                alt="dart"
+                className="h-[38px] md:h-[48px] w-[38px] md:w-[48px]"
+              />
               <div>
-                <h4 className="text-[20px] lg:text-[28px] font-semibold text-[#1b233d]">Simple Screen Recording</h4>
+                <h4 className="text-[20px] lg:text-[28px] font-semibold text-[#1b233d]">
+                  Simple Screen Recording
+                </h4>
                 <p className="text-[16px] lg:text-[20px] text-black opacity-75">
                   Effortless screen recording for everyone. Record with ease, no
                   tech expertise required.
@@ -95,9 +102,15 @@ export default function Home() {
             </div>
 
             <div className="flex gap-4 mb-12">
-              <img src={paperplane} alt="paperplane" className="h-[38px] md:h-[48px] w-[38px] md:w-[48px]" />
+              <img
+                src={paperplane}
+                alt="paperplane"
+                className="h-[38px] md:h-[48px] w-[38px] md:w-[48px]"
+              />
               <div>
-                <h4 className="text-[20px] lg:text-[28px] font-semibold text-[#1b233d]">Easy-to-Share URL</h4>
+                <h4 className="text-[20px] lg:text-[28px] font-semibold text-[#1b233d]">
+                  Easy-to-Share URL
+                </h4>
                 <p className="text-[16px] lg:text-[20px] text-black opacity-75">
                   Share your recordings instantly with a single link. No
                   attachments, no downloads.
@@ -106,9 +119,15 @@ export default function Home() {
             </div>
 
             <div className="flex gap-4 mb-12">
-              <img src={revision} alt="revision" className="h-[38px] md:h-[48px] w-[38px] md:w-[48px]" />
+              <img
+                src={revision}
+                alt="revision"
+                className="h-[38px] md:h-[48px] w-[38px] md:w-[48px]"
+              />
               <div>
-                <h4 className="text-[20px] lg:text-[28px] font-semibold text-[#1b233d]">Revisit Recordings</h4>
+                <h4 className="text-[20px] lg:text-[28px] font-semibold text-[#1b233d]">
+                  Revisit Recordings
+                </h4>
                 <p className="text-[16px] lg:text-[20px] text-black opacity-75">
                   Access and review your past content effortlessly. Your
                   recordings, always at your fingertips.
@@ -119,6 +138,64 @@ export default function Home() {
 
           <div className="w-full md:w-[50%]">
             <img src={vidrepo} alt="video repo" className="w-full" />
+          </div>
+        </div>
+      </section>
+
+      <div className="bg-slate-100 h-14 w-full"></div>
+
+      <section className="px-[20px] md:px-[100px] py-20">
+        <h2 className="text-center text-[#141414] font-bold text-3xl md:text-4xl mb-14">
+          How it works
+        </h2>
+
+        <div className="flex flex-col md:flex-row gap-20">
+          <div className="w-full sm:w-[50%] mx-auto md:mx-[0px] md:w-[33%]">
+            <div className="flex items-center justify-center">
+              <div className="rounded-full bg-[#0A0628] h-14 w-14 lg:h-16 lg:w-16 flex items-center justify-center mb-8">
+                <p className="font-bold text-xl lg:text-3xl text-white">1</p>
+              </div>
+            </div>
+            <h3 className="text-[20px] lg:text-[28px] font-semibold text-[#1b233d] text-center mb-4">
+              Record Screen
+            </h3>
+            <p className="text-[#616163] text-base lg:text-xl font-normal text-center mb-7">
+              Click the "Start Recording" button in our extension. choose which
+              part of your screen to capture and who you want to send it to.
+            </p>
+            <img src={group} alt="group" className="w-full" />
+          </div>
+
+          <div className="w-full sm:w-[50%] mx-auto md:mx-[0px] md:w-[33%]">
+            <div className="flex items-center justify-center">
+              <div className="rounded-full bg-[#0A0628] h-14 w-14 lg:h-16 lg:w-16 flex items-center justify-center mb-8">
+                <p className="font-bold text-xl lg:text-3xl text-white">2</p>
+              </div>
+            </div>
+            <h3 className="text-[20px] lg:text-[28px] font-semibold text-[#1b233d] text-center mb-4">
+              Share Your Recording
+            </h3>
+            <p className="text-[#616163] text-base lg:text-xl font-normal text-center mb-7">
+              We generate a shareable link for your video. Simply send it to
+              your audience via email or copy the link to send via any platform.
+            </p>
+            <img src={group} alt="group" className="w-full" />
+          </div>
+
+          <div className="w-full sm:w-[50%] mx-auto md:mx-[0px] md:w-[33%]">
+            <div className="flex items-center justify-center">
+              <div className="rounded-full bg-[#0A0628] h-14 w-14 lg:h-16 lg:w-16 flex items-center justify-center mb-8">
+                <p className="font-bold text-xl lg:text-3xl text-white">3</p>
+              </div>
+            </div>
+            <h3 className="text-[20px] lg:text-[28px] font-semibold text-[#1b233d] text-center mb-4">
+              Learn Effortlessly
+            </h3>
+            <p className="text-[#616163] text-base lg:text-xl font-normal text-center mb-7">
+              Recipients can access your video effortlessly through the provided
+              link, with our user-friendly interface suitable for everyone.
+            </p>
+            <img src={group} alt="group" className="w-full" />
           </div>
         </div>
       </section>
